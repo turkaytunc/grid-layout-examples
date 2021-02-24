@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/grid-layout-examples/static/css/main.c6d16012.chunk.css",
+    "main.js": "/grid-layout-examples/static/js/main.9b119c22.chunk.js",
+    "main.js.map": "/grid-layout-examples/static/js/main.9b119c22.chunk.js.map",
+    "runtime-main.js": "/grid-layout-examples/static/js/runtime-main.3e4e164c.js",
+    "runtime-main.js.map": "/grid-layout-examples/static/js/runtime-main.3e4e164c.js.map",
+    "static/js/2.80aabed1.chunk.js": "/grid-layout-examples/static/js/2.80aabed1.chunk.js",
+    "static/js/2.80aabed1.chunk.js.map": "/grid-layout-examples/static/js/2.80aabed1.chunk.js.map",
+    "index.html": "/grid-layout-examples/index.html",
+    "static/css/main.c6d16012.chunk.css.map": "/grid-layout-examples/static/css/main.c6d16012.chunk.css.map",
+    "static/js/2.80aabed1.chunk.js.LICENSE.txt": "/grid-layout-examples/static/js/2.80aabed1.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3e4e164c.js",
+    "static/js/2.80aabed1.chunk.js",
+    "static/css/main.c6d16012.chunk.css",
+    "static/js/main.9b119c22.chunk.js"
+  ]
+}
