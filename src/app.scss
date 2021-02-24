@@ -1,19 +1,91 @@
 .app {
   background-color: #555;
-  color: white;
+  color: red;
+  padding: 3rem;
+  text-align: center;
 }
 .visual {
   border: 1px solid red;
 }
 
 .grid-container-1 {
-  margin-bottom: 1rem;
+  margin-bottom: 5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 5fr 1fr;
+  gap: 1rem;
+  grid-template-areas:
+    '. header header header .'
+    'aside-1 main main main aside-2'
+    'footer footer footer footer footer';
+
+  > * {
+    background-color: white;
+    text-align: center;
+    min-height: 50px;
+  }
+  .header {
+    grid-area: header;
+    position: sticky;
+  }
+  .aside-1 {
+    grid-area: aside-1;
+  }
+  .main {
+    grid-area: main;
+  }
+  .aside-2 {
+    grid-area: aside-2;
+  }
+  .footer {
+    grid-area: footer;
+  }
 }
 
 .grid-container-2 {
-  margin-bottom: 1rem;
+  margin-bottom: 5rem;
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr 1fr;
+  grid-template-rows: 1fr 7fr 1fr;
+  gap: 0.5rem;
+  grid-template-areas:
+    'header header header ads'
+    'main main main ads'
+    'footer footer footer ads';
+
+  > * {
+    background-color: white;
+    text-align: center;
+    min-height: 50px;
+  }
+  .header {
+    grid-area: header;
+  }
+  .main {
+    grid-area: main;
+  }
+  .ads {
+    grid-area: ads;
+  }
+
+  .footer {
+    grid-area: footer;
+  }
 }
 
 .grid-container-3 {
-  margin-bottom: 1rem;
+  margin-bottom: 5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas: 'header';
+  .header {
+  }
+  .aside-1 {
+  }
+  .main {
+  }
+  .aside-2 {
+  }
+  .footer {
+  }
 }
