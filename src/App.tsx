@@ -2,7 +2,7 @@ import './app.scss';
 
 function App() {
   return (
-    <div className="App">
+    <div className="app">
       <section className="grid-container"></section>
       <section className="grid-container"></section>
       <section className="grid-container"></section>

@@ -1,6 +1,14 @@
 {
   "name": "grid-layout-examples",
   "version": "0.1.0",
+  "homepage": "https://turkaytunc.github.com/grid-layout-examples/",
+  "license": "MIT",
+  "author": {
+    "name": "Türkay Tunç"
+  },
+  "repository": {
+    "url": "https://github.com/turkaytunc/grid-layout-examples"
+  },
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.9",
